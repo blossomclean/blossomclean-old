@@ -109,6 +109,10 @@ module.exports = {
             src: `/icons/icon-512x512.png`,
             sizes: `512x512`,
             type: `image/png`,
+          },{
+            src: `/icons/BC-Logo.png`,
+            sizes: `192x192`,
+            type: `image/png`,
           },
         ],
       },
