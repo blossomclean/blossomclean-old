@@ -1,9 +1,10 @@
 module.exports = {
-  siteTitle: 'Gatsby Starter Business', // Site title.
-  siteTitleAlt: 'Business', // Alternative site title for SEO.
-  siteLogo: '/icons/icon-512x512.png', // Logo used for SEO and manifest.
-  siteUrl: 'https://gatsby-starter-business.netlify.com', // Domain of your website without pathPrefix.
-  pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/gatsby-starter-business/.
+  siteTitle: 'Blosssom Clean', // Site title.
+  siteTagline: 'Buyback time to do awesome things!', // Site tagline.
+  siteTitleAlt: 'Blossom Clean', // Alternative site title for SEO.
+  siteLogo: '/icons/BC-Logo.png', // Logo used for SEO and manifest.
+  siteUrl: 'https://blossom-clean.netlify.com', // Domain of your website without pathPrefix.
+  pathPrefix: '', // Prefixes all links. For cases when deployed to example.github.io/blossom-clean/.
   siteDescription: 'Leverage Gatsby Business Starter for your Business.', // Website description used for RSS feeds/meta description tag.
   siteRss: '/rss.xml',
   siteFBAppID: '', // FB Application ID for using app insights
@@ -13,7 +14,7 @@ module.exports = {
   userTwitter: 'vaibhaved',
   userLocation: 'Delhi NCR, India',
   userDescription: '',
-  copyright: 'Copyright © Gatsby Starter Business 2018-2019. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
+  copyright: 'Copyright © Blosssom Clean Business 2018-2020. All Rights Reserved.', // Copyright string for the footer of the website and RSS feed.
   themeColor: '#00d1b2', // Used for setting manifest and progress theme colors.
   backgroundColor: '#ffffff', // Used for setting manifest background color.
 }

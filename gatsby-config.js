@@ -73,7 +73,7 @@ module.exports = {
       options: {
         modulePath: `${__dirname}/src/cms/cms.js`,
         enableIdentityWidget: true,
-        htmlTitle: `Gatsby Starter Business Content Manager`,
+        htmlTitle: `Blossom Clean Business Content Manager`,
       },
     },
     {
@@ -146,7 +146,7 @@ module.exports = {
               const rssMetadata = ctx.query.site.siteMetadata.rssMetadata
               return ctx.query.allMarkdownRemark.edges
                 .filter(
-                  edge => edge.node.frontmatter.templateKey === 'article-page'
+                  edge => edge.node.frontmatter.templateKey === 'article-page',
                 )
                 .map(edge => ({
                   categories: edge.node.frontmatter.tags,

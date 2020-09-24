@@ -1,7 +1,10 @@
 ---
 templateKey: 'home-page'
-title: Gatsby Starter Business
-meta_title: Home | Gatsby Starter Business
+title: Blossom Clean
+tagline: Buyback time to do awesome things!
+logo: /img/icon-192.png
+hero_image: /img/fb-cover.png
+meta_title: Home | Blosssom Clean
 meta_description: >-
   Cum sociis natoque penatibus et magnis dis parturient montes, nascetur
   ridiculus mus. Aenean eu leo quam. Pellentesque ornare sem lacinia quam
@@ -60,6 +63,10 @@ testimonials:
     quote: >-
       Donec scelerisque magna nec condimentum porttitor. Aliquam vel diam sed diam luctus pretium. 
       Sed quis egestas libero. Vestibulum nec venenatis ligula. 
+  - author: Subarashi San
+    quote: >-
+      Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 
+      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
   - author: Subarashi San
     quote: >-
       Fusce porttitor vulputate enim, nec blandit magna gravida et. Etiam et dignissim ligula. 

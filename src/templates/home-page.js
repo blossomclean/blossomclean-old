@@ -11,6 +11,8 @@ const HomePage = ({ data }) => {
     <Layout>
       <HomePageTemplate
         title={frontmatter.title}
+        tagline={frontmatter.tagline}
+        hero_image={frontmatter.hero_image}
         meta_title={frontmatter.meta_title}
         meta_description={frontmatter.meta_description}
         heading={frontmatter.heading}
@@ -37,6 +39,8 @@ export const pageQuery = graphql`
     markdownRemark(id: { eq: $id }) {
       frontmatter {
         title
+        tagline
+        hero_image
         meta_title
         meta_description
         heading
